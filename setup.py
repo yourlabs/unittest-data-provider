@@ -6,7 +6,7 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
-    name='unittest-dataprovider',
+    name='unittest-data-provider',
     version='1.0.0',
     description='PHPUnit-like @dataprovider decorator for unittest',
     author='drm from melp.nl, packaged for reuse by James Pic',
@@ -15,7 +15,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     zip_safe=False,
-    long_description=read('README'),
+    long_description=read('README.rst'),
     license='MIT',
     keywords='unittest dataprovider',
     classifiers=[
