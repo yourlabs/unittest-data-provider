@@ -11,7 +11,7 @@ setup(
     description='PHPUnit-like @dataprovider decorator for unittest',
     author='drm from melp.nl, packaged for reuse by James Pic',
     author_email='jamespic@gmail.com',
-    url='http://github.com/yourlabs/unittest-dataprovider',
+    url='http://github.com/yourlabs/unittest-data-provider',
     packages=find_packages(),
     include_package_data=True,
     zip_safe=False,

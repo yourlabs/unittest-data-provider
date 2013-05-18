@@ -3,7 +3,7 @@ http://melp.nl/2011/02/phpunit-style-dataprovider-in-python-unit-test/
 
 Install::
 
-    pip install unittest-dataprovider
+    pip install unittest-data-provider
 
 Import::
 
