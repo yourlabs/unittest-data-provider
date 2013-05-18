@@ -6,7 +6,7 @@ def data_provider(fn_data_provider):
                 try:
                     fn(self, *i)
                 except AssertionError:
-                    print "Assertion error caught with data set ", i
+                    print("Assertion error caught with data set ", i)
                     raise
         return repl
     return test_decorator
