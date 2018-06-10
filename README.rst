@@ -81,7 +81,9 @@ Example usage::
         def setUp(self):
             self.parser = CssColor()
     
-        colors = lambda: (
+        @staticmethod
+        def colors():
+            return (
             ( (0, 0, 0), '#000' ),
             ( (0, 0, 0), '#000000' ),
             ( (0, 0, 0), 'rgb(0, 0, 0)' ),
