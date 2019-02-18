@@ -90,7 +90,7 @@ Example usage::
             ( (0, 0, 0), 'black' )
         )
     
-        @data_provider(colors):
+        @data_provider(colors)
         def test_parse_color(self, color, notation):
             self.assertEquals(color, self.parser.parse_color(notation))
 
